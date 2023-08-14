@@ -4,3 +4,17 @@ PyTorch implementation for **Homeomorphism Alignment for Unsupervised Domain Ada
 The installation can refer to CAN.
 
 Please download datasets to experiments/datasets/ folder.
+
+## Training:
+```
+CUDA_VISIBLE_DEVICES=X python tools/train.py --method CAN_INN --cfg experiments/config/home/cfgXXXX.yaml
+```
+
+
+
+## Citation
+If you think our paper or code is helpful to you, we very much hope that you can cite our paper, thank you very much.
+
+```
+
+```
